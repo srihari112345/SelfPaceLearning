@@ -9,7 +9,9 @@
  
 # TODO
 * Load Balancer System Design - Gaurav Sen.
+    * Continueous Hashing
 * The road to learn react - book for react.
+* Find min distance.
 * Saltstack - Infra Management.
 * Quorum - Distributed Consensus.
 * shading - Gaurav Sen.
@@ -39,7 +41,8 @@
 * Redux vs Apollo
 * Next Js
 * Vue Js
-* 
+* Git - https://github.com/ompanda
+
 
 # Pet Project Ideas
 * Mail Automation & portfolio tracker using UI Path.
@@ -53,5 +56,11 @@
 
 # Good Descriptions
 * Worked on various Machine Learning techniques (recommendation engines, ensemble models such as random forests, bagging and boosting, support vector machines, optimization problems)
+* Passion for understanding business problems and trying to address them by leveraging data
+collected from multiple sources (ex. crawling)
+* Strong programming skill with object oriented language (C#) and scripting language (Python) and JavaScript frameworks (Angular,ReactJs).
+* Deployment of the models using web-interfacing languages using Azure ML, Docker and Kubernates. 
+* Conversant with advanced machine learning techniques such as SVD as well as neural networks design and implementation through tools like Tensorflow, Keras.
 * 
+
 
