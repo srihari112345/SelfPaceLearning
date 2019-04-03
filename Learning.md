@@ -1,5 +1,3 @@
-TODO
-
 **NOSQL**
  * Suitable for Availability. 
  * Major companies use them for analytics purposes.
