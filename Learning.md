@@ -8,5 +8,16 @@
  * No updates. Only Delete + Insert supported.
  
 # TODO
-* Load Balancer System Design
-* The road to learn react
+* Load Balancer System Design - Gaurav Sen.
+* The road to learn react - book for react.
+* Saltstack - Infra Management.
+* Quorum - Distributed Consensus.
+* shading - Gaurav Sen.
+* Hashing algorithms with collision probability.
+* Manipulation of sorted dictionary.
+* Big Data - Google White paper.
+* Lockless - Link list manipulation - Concurrency pattern: (in Go)
+    * Fork Join.
+    * Concurrency check while adding a node.
+* https://Michaelscodingspot.com (array iteration vs parallelism)
+* Actor Based Framework
