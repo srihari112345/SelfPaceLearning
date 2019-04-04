@@ -79,3 +79,5 @@ collected from multiple sources (ex. crawling)
     * Work in quite place.
     * Keep distance with mobile phone
 * Prioritize long term benificial work to avoid procastination.
+* Do what you do best & enjoy work. (teaching & helping others)
+* Identify people's interest area & give them work accordingly.
