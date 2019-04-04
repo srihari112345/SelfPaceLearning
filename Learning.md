@@ -63,4 +63,9 @@ collected from multiple sources (ex. crawling)
 * Conversant with advanced machine learning techniques such as SVD as well as neural networks design and implementation through tools like Tensorflow, Keras.
 * 
 
-
+# Manage Your Energy, Not Your Time
+* Excersise
+* Follow sleep routine
+* Eat light food in interval of 3 hours
+* Take break every 2 hours
+* 
