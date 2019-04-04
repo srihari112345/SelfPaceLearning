@@ -81,3 +81,4 @@ collected from multiple sources (ex. crawling)
 * Prioritize long term benificial work to avoid procastination.
 * Do what you do best & enjoy work. (teaching & helping others)
 * Identify people's interest area & give them work accordingly.
+* Ask Who are you & Who you want to be?
