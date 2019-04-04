@@ -69,4 +69,13 @@ collected from multiple sources (ex. crawling)
 * Eat light food in interval of 3 hours.
 * Take break every 2 hours.
 * Don't be in hurry to respond take deep inhalation & exhalation.
-* COnnect with Collegues to know more about them & try to help them grow.
+* Connect with Collegues to know more about them & try to help them grow.
+* In case of conflict think about below points:
+    * What would the other person in this conflict say and in what ways might that be true?
+    * How will I most likely view this situation in six months?   
+    * Regardless of the outcome of this issue, how can I grow and learn from it?
+* Avoid distractions
+    * Turn off Email & Ping when focusing on work.
+    * Work in quite place.
+    * Keep distance with mobile phone
+* Prioritize long term benificial work to avoid procastination.
