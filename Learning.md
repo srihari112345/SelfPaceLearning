@@ -64,8 +64,9 @@ collected from multiple sources (ex. crawling)
 * 
 
 # Manage Your Energy, Not Your Time
-* Excersise
-* Follow sleep routine
-* Eat light food in interval of 3 hours
-* Take break every 2 hours
-* Deep inhalation & exhalation while taking breaks
+* Excersise.
+* Follow sleep routine.
+* Eat light food in interval of 3 hours.
+* Take break every 2 hours.
+* Don't be in hurry to respond take deep inhalation & exhalation.
+* COnnect with Collegues to know more about them & try to help them grow.
