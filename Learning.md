@@ -68,4 +68,4 @@ collected from multiple sources (ex. crawling)
 * Follow sleep routine
 * Eat light food in interval of 3 hours
 * Take break every 2 hours
-* 
+* Deep inhalation & exhalation while taking breaks
