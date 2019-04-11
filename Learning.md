@@ -7,6 +7,11 @@
  * Hard to setup relationship between tables.
  * No updates. Only Delete + Insert supported.
  
+**Random Forest**
+* Quantitative evaluation techniques
+    *   Gini Impurity
+    *   Gini Gain
+
 # TODO
 * Load Balancer System Design - Gaurav Sen.
     * Continueous Hashing
@@ -42,6 +47,7 @@
 * Next Js
 * Vue Js
 * Git - https://github.com/ompanda
+* hoisting in js
 
 
 # Pet Project Ideas
