@@ -20,10 +20,16 @@ package main
 import "fmt"
 
 func main() {
+
 	input := "001001001"
 	//input := "01010101010000010001010101010101010010"
 	//input := "01010101010"
 
+	fmt.Println(IsEquistant(input))
+}
+
+// IsEquistant Returns bool value based on input string
+func IsEquistant(input string) bool {
 	index := 0
 	prevIndex := 0
 	prevDistance := 0
@@ -55,5 +61,5 @@ func main() {
 		}
 	}
 
-	fmt.Println(isEquidistant)
+	return isEquidistant
 }
