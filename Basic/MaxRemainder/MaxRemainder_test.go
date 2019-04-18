@@ -12,7 +12,6 @@ func TestCaclulateMaxRemainderForValidEvenInputExpectsThree(t *testing.T) {
 	}
 }
 
-//TODO: Need to improve code. Test is failing
 // TestCaclulateMaxRemainderForValidOddInputExpectsFour1
 func TestCaclulateMaxRemainderForValidOddInputExpectsFour1(t *testing.T) {
 	actual := CaclulateMaxRemainder([]int{2, 1, 5, 3, 4})
@@ -26,6 +25,16 @@ func TestCaclulateMaxRemainderForValidOddInputExpectsFour1(t *testing.T) {
 // TestCaclulateMaxRemainderForValidOddnputExpectsFour2
 func TestCaclulateMaxRemainderForValidOddInputExpectsFour2(t *testing.T) {
 	actual := CaclulateMaxRemainder([]int{5, 1, 2, 3, 4})
+	expected := 4
+
+	if actual != expected {
+		t.Errorf("CaclulateMaxRemainder result was incorrect, got: %d, want: %d.", actual, expected)
+	}
+}
+
+// TestCaclulateMaxRemainderForValidOddInputExpectsFour3
+func TestCaclulateMaxRemainderForValidOddInputExpectsFour3(t *testing.T) {
+	actual := CaclulateMaxRemainder([]int{4, 1, 3, 2, 5})
 	expected := 4
 
 	if actual != expected {

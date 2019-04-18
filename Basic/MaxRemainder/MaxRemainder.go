@@ -45,6 +45,7 @@ func CaclulateMaxRemainder(input []int) int {
 	for i := 0; i < limit; i++ {
 
 		if input[i] > largest {
+			secondLargest = largest
 			largest = input[i]
 		}
 
@@ -53,6 +54,7 @@ func CaclulateMaxRemainder(input []int) int {
 		}
 
 		if input[n-i-1] > largest {
+			secondLargest = largest
 			largest = input[n-i-1]
 		}
 
