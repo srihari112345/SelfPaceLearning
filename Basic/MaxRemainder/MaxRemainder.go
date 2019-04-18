@@ -32,21 +32,31 @@ Approaches:
 
 // CaclulateMaxRemainder returns maximum reminder of two elements from input slice
 func CaclulateMaxRemainder(input []int) int {
+
 	n := len(input)
 	largest := 0
 	secondLargest := 0
 
-	for i := 0; i < (n / 2); i++ {
+	limit := (n / 2)
+	if n%2 != 0 {
+		limit++
+	}
+
+	for i := 0; i < limit; i++ {
 
 		if input[i] > largest {
 			largest = input[i]
-		} else if input[i] > secondLargest {
+		}
+
+		if input[i] > secondLargest && input[i] < largest {
 			secondLargest = input[i]
 		}
 
 		if input[n-i-1] > largest {
 			largest = input[n-i-1]
-		} else if input[n-i-1] > secondLargest {
+		}
+
+		if input[n-i-1] > secondLargest && input[n-i-1] < largest {
 			secondLargest = input[n-i-1]
 		}
 	}
