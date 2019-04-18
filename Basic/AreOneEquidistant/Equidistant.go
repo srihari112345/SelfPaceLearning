@@ -18,7 +18,7 @@ Approaches:
 
 1. Find all the occurances of 1s form input then calculate distance & return false if any distance is not same as previous.
 
-2. Loop through all elements and
+2. Loop through all elements and update previous distance.
 
 */
 
