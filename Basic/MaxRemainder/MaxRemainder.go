@@ -1,3 +1,5 @@
+package MaxRemainder
+
 /*
 Url: https://www.geeksforgeeks.org/maximum-modulo-pairs-array-arri-arrj/
 
@@ -27,11 +29,29 @@ Approaches:
 2. Find largest two elements and return second largest number % largest number.
 
 */
-package MaxRemainder
 
 // CaclulateMaxRemainder returns maximum reminder of two elements from input slice
 func CaclulateMaxRemainder(input []int) int {
-	return 1
+	n := len(input)
+	largest := 0
+	secondLargest := 0
+
+	for i := 0; i < (n / 2); i++ {
+
+		if input[i] > largest {
+			largest = input[i]
+		} else if input[i] > secondLargest {
+			secondLargest = input[i]
+		}
+
+		if input[n-i-1] > largest {
+			largest = input[n-i-1]
+		} else if input[n-i-1] > secondLargest {
+			secondLargest = input[n-i-1]
+		}
+	}
+
+	return secondLargest % largest
 }
 
 func main() {
