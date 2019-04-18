@@ -13,6 +13,13 @@ Input: str = “0101001”
 Output: No
 The distance between the 1st and the 2nd 1’s is 2
 and the distance between the 2nd and the 3rd 1’s is 3.
+
+Approaches:
+
+1. Find all the occurances of 1s form input then calculate distance & return false if any distance is not same as previous.
+
+2. Loop through all elements and
+
 */
 
 package main
@@ -25,42 +32,35 @@ func main() {
 	//input := "01010101010000010001010101010101010010"
 	//input := "01010101010"
 
-	fmt.Println(IsEquistant(input))
+	fmt.Println(AreEquistant(input))
 }
 
-// IsEquistant Returns bool value based on input string
-func IsEquistant(input string) bool {
-	index := 0
+// AreEquistant Returns bool value based on input string
+func AreEquistant(input string) bool {
+
 	prevIndex := 0
 	prevDistance := 0
-	currentDistance := 0
-	isEquidistant := true
 
-	//Could be refactored to use range
-	for {
-		if string(input[index]) == "1" {
+	for index, element := range input {
+
+		if string(element) == "1" {
+
 			if prevIndex == 0 {
+
 				prevIndex = index
 			} else if prevDistance == 0 {
+
 				prevDistance = index - prevIndex
 				prevIndex = index
 			} else if prevIndex != 0 && prevDistance != 0 {
-				currentDistance = index - prevIndex
+
+				if index-prevIndex > prevDistance {
+					return false
+				}
 				prevIndex = index
 			}
 		}
-
-		index++
-
-		if currentDistance > prevDistance {
-			isEquidistant = false
-			break
-		}
-
-		if index >= len(input) {
-			break
-		}
 	}
 
-	return isEquidistant
+	return true
 }
