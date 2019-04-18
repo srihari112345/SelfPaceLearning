@@ -36,6 +36,7 @@ func IsEquistant(input string) bool {
 	currentDistance := 0
 	isEquidistant := true
 
+	//Could be refactored to use range
 	for {
 		if string(input[index]) == "1" {
 			if prevIndex == 0 {
