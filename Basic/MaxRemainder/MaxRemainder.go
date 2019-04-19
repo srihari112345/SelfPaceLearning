@@ -1,4 +1,4 @@
-package MaxRemainder
+package main
 
 /*
 Url: https://www.geeksforgeeks.org/maximum-modulo-pairs-array-arri-arrj/
@@ -67,5 +67,7 @@ func CaclulateMaxRemainder(input []int) int {
 }
 
 func main() {
-	CaclulateMaxRemainder([]int{1, 2, 3, 4})
+
+	print(CaclulateMaxRemainder([]int{1, 2, 3, 4}))
+
 }
